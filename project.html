@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Netflix Style</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>RanFlix</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="project.html">Projects</a>
+        <a href="media.html">Media</a>
+        <a href="kontak.html">Contact</a>
+      </nav>
+    </header>
+    <!-- Section -->
+    <section class="section">
+      <h2 class="section-title">My Projects</h2>
+
+      <!-- Columns -->
+      <div class="column-container">
+        <div
+          class="column-card"
+          onclick="openProject(this.querySelector('img').src)"
+        >
+          <img src="image/project (5).png" alt="Project Profile Website" />
+          <h3>Belajar Layout Web </h3>
+          <p>Melakukan belajar Layout Web di pertemuan 13 .</p>
+        </div>
+
+        <div
+          class="column-card"
+          onclick="openProject(this.querySelector('img').src)"
+        >
+          <img src="image/project (2).png" alt="Project Profile Website" />
+          <h3>Profile Website menggunakan HTML</h3>
+          <p>belajar membuat Profile website di pertemuan 11.</p>
+        </div>
+
+        <div
+          class="column-card"
+          onclick="openProject(this.querySelector('img').src)"
+        >
+          <img src="image/project (3).png" alt="Project Profile Website" />
+          <h3>Belajar Hitung Total Belanja</h3>
+          <p>Mempelajari Javascript Dengan menghitung Total belanja Pertemuan 17.</p>
+        </div>
+
+        <div
+          class="column-card"
+          onclick="openProject(this.querySelector('img').src)"
+        >
+          <img src="image/project (4).png" alt="Project Profile Website" />
+          <h3>Website Modern</h3>
+          <p>Mempelajari Website Modern di Pertemuan 14.</p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
